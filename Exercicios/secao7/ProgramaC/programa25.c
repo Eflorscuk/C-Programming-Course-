@@ -1,14 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int arr[1000], i = 0;
-    printf("RESULTADO:\n");
-    while(i < 100) {
-        if(i % 7 == 0) {
-            printf("%d\n", i);
-
+    int arr[100], i = 0, j = 0;
+    for(i = 0; i < 100; i++) {
+        while(j % 7 == 0 || j % 10 == 7){
+            j++;
         }
-        i++;
+        arr[i]=j;
+        j++;
+    }
+    printf("Resposta\n");
+    for(i = 0; i < 100; i++){
+        printf("%d\n", arr[i]);
     }
     return 0;
 }
