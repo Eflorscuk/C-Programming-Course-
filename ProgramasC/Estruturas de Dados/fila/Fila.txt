@@ -1,0 +1,22 @@
+Fila / Queue
+
+- Como uma fila de banco;
+- O elemento que entra primeiro, sai primeiro;
+- Sempre que um elemento é adicionado, este entra no final da fila;
+- Sempre que removemos um elemento, o primeiro da fila que é removido
+
+FIFO - First in, first out
+
+enqueue() // Adiciona elemento na fila;
+
+dequeue() // Remove elemento da fila;
+
+clear() // Limpa o elemento da fila;
+
+O elemento fila tem três elementos principais
+- a Fila em si, sua estrutura: fila[10] = fila[0], fila[1], fila[2], fila[3], fila[4], fila[5], fila[6], fila[7], fila[8], fila[9];
+- head (cabeça da fila) => Indica quem é o primeiro elemento da fila;
+- tail (cauda), => Indica quantos elementos tem na fila
+
+Aplicação:
+- Em qualquer situação que é necessário organizar o atendimento de elementos;
