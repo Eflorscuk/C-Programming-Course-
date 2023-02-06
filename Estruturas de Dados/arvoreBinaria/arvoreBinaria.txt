@@ -1,0 +1,18 @@
+// Árvore Binária - Binary Tree
+
+São estruturas de dados caracterizadas por:
+
+-> Ou não tem elemento algum (árvore vazia)
+-> Ou possui um elemento distinto, denoinado raiz,
+com dois apontamentos para duas estruturas diferentes,
+denominadas sub-árvores esquerda e sub-árvore direita
+
+-> É binário pq aponta somente ou para um (no caso, aponta para um elemento
+e aponta para null) ou para dois elementos
+
+-> raiz
+
+-> folhas (extremidades)
+
+-> arestas (são os nós)
+
