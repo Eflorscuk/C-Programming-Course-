@@ -1,0 +1,15 @@
+Lista Encadeada / Lista Ligada / Linked Lista
+
+A lista encadeada possui, além do seu valor, um ponteiro ligando para o próximo
+elemento
+
+-- Podemos inserir elementos no início ou no fim
+
+Nó       Nó       Nó
+-----    -----    -----
+|1| | -> |2| | -> |3| | -> NULL
+-----    -----    -----
+
+* Serve para implementação de pilhas, filas e deques
+-> Armazenar elementos de certa ordem
+-> Apresenta caráter dinâmico
