@@ -1,0 +1,46 @@
+Principais:
+
+*- Select Sort
+    Conhecido também como Selection Sort, é um algoritmo de ordenação básico, onde sempre o menor valor
+    será passado para o início do vetor (primeira posição), e depois o segundo menor valor
+    será passado para a posição e assim sucessivamente, ordenando desta forma os valores do vetor
+
+*- Insert Sort
+    Conhecido também como Insertion Sort, é um algoritmo simples, mas eficiente usado em
+    vetores pequenos. Basicamente, ele percorre um vetor da esquerda para direita, e conforme avança,
+    vai alinhando os valores da sua esquerda.
+
+*- Bubble Sort
+    Conhecido também como algoritmo de troca, ou algoritmo de bolha, é um algoritmo de ordenação
+    simples, sendo que a ideia é percorrer o vetor várias vezes, e a cada vez, 'flutuar' o maior elemento
+    da sequência.
+
+    Esse movimento lembra a forma de como as bolhas em um reservatório de água procuram seu próprio nível.
+
+    Esse método, apesar de considerado eficaz, acaba passando várias vezes pelas mesmas posições do vetor
+    no pior dos casos, executando o loop novamente, voltando ao início e percorrendo o vetor até finalizar.
+
+    Não é recomedado para programas que necessitem de velocidade.
+
+* A partir daqui, esses algoritmos fazem separação de grupo
+- Shell Sort
+    O algoritmo Shell Sort trabalha com o outro algorimto já conhecido - Insert Sort -, mas fazendo uma separação
+    em grupos menores e ordenando estes grupos menores, ordenando assim todo o valor.
+
+- Quick Sort
+    Assim como o Shell Sort, o Quick Sort ordena vetores separando o mesmo em grupos e ordenando estes
+    grupos conforme vai varrendo o vetor.
+
+- Merge Sort
+    Conhecido também como o algoritmo de Ordenação por Mistura, este utiliza a ideia básica de Dividir e Conquistar.
+
+    Ele divide, recursivamente, o vetor até que cada subconjunto possua 1 elemento, fazendo a combinação de 2
+    subconjuntos de forma a obter 1 conjunto maior e ordenado.
+
+    Este processo se repete até que exista apenas 1 conjunto.
+
+- Heap Sort
+    Conhecido também como Ordenação usando Heap, utiliza um heap (vetor que simula uma árvore binária
+    completa - com exceção do último nível) para realizar a ordenação.
+
+    Todo elemento "pai" do vetor possui dois elementos como filhos.
